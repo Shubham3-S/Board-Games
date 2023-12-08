@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Board Games</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="logo2.png">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="logo2.png" alt="MyOnlineMeal.com">
+            </div>
+            <ul>
+                <li class="item"><a href="#home">Home</a></li>
+                <li class="item"><a href="#services-container">Bestsellers</a></li>
+                <li class="item"><a href="#contact">Contact Us</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1 class="h-primary">Board Games</h1>
+
+            <p>Step into a world of endless fun and laughter! Board games aren't just games; they're the secret sauce
+                for unforgettable moments with family and friends. From tricky moves to hilarious challenges, each game
+                is a journey waiting to happen. Rediscover the joy – let the dice roll, and let the good times begin!
+            </p>
+
+            <button class="btn" onclick="alert('Out of Stock')">Order Now</button>
+        </section>
+
+        <section id="services-container">
+            <h1 class="h-primary center">Bestsellers</h1>
+            <div id="services">
+                <div class="box">
+                    <img src="img/chess.png" alt="chess" >
+                    <h2 class="h-secondary center">Chess</h2>
+                    <p class="center">Dive into the timeless world of strategy and intellect with the classic game of
+                        chess. Elevate your leisure with a board that holds centuries of cerebral excitement, where
+                        every move is a calculated step towards victory. Unleash the power of your mind and experience
+                        the thrill of each strategic maneuver. Bring home the sophistication and challenge of chess —
+                        not just a game, but a masterpiece of strategic brilliance.
+                    </p>
+                </div>
+                <div class="box">
+                    <img src="img/Snakeladder.png" alt="snake&ladder" >
+                    <h2 class="h-secondary center">Snakeladder</h2>
+                    <p class="center">Embark on a journey of fun and unpredictability with the ever-popular game of
+                        Snake and Ladder. Roll the dice, climb the ladders, and beware the slippery snakes in this
+                        exciting adventure for all ages. Watch as each roll takes you closer to triumph or unexpected
+                        challenges, making every moment a delightful twist of fate. Elevate your family time with the
+                        joyous simplicity of Snake and Ladder — not just a game, but a pathway to shared laughter and
+                        unpredictable thrills.</p>
+                </div>
+                <div class="box">
+                    <img src="img/monopoly.png" alt="monoply" >
+                    <h2 class="h-secondary center">Monopoly</h2>
+                    <p class="center">Step into the world of high-stakes wheeling and dealing with the iconic game of
+                        Monopoly. Build your empire, negotiate strategic trades, and outsmart your opponents in this
+                        classic game of property domination. Feel the thrill of passing GO, collecting your hard-earned
+                        rent, and strategically plotting your way to victory. Monopoly isn't just a board game; it's a
+                        ticket to a world where savvy investments and calculated risks reign supreme. Elevate your
+                        gaming experience — Monopoly, where every roll of the dice shapes your financial destiny.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h1 class="h-primary center">Contact Us</h1>
+            <div id="contact-box">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email: </label>
+                        <input type="email" name="name" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number: </label>
+                        <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message: </label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </div>
+                    <button class="btn" type="submit" onclick="alert('Submitted')">Submit</button>
+                    <button class="btn" type="reset">Reset</button>
+                </form>
+                
+            </div>
+            
+        </section>
+    </main>
+    
+    <footer>
+        <div class="center">
+            Copyright &copy; www.BoardGames.com. All rights reserved!
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
